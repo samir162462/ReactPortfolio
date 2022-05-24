@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import facebook from '../icons/facebook.svg';
-import twitter from '../icons/twitter.svg';
+import linkedin from '../icons/linkedin.png';
 import github from '../icons/github.svg';
 
 const SocialMedia = () => {
@@ -10,17 +10,17 @@ const SocialMedia = () => {
 			<span>Find Me on</span>
 			<ul>
 				<li>
-					<a href="https://twitter.com/said_mounaim" rel="noreferrer" target="_blank">
-						<img src={twitter} alt="Twitter" />
+					<a href="https://www.linkedin.com/in/samir-filfil-b833a3127/" rel="noreferrer" target="_blank">
+						<img height={42} width={42} src={linkedin} alt="Twitter" />
 					</a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/apiyaue06" rel="noreferrer" target="_blank">
+					<a href="https://www.facebook.com/sameerboge/" rel="noreferrer" target="_blank">
 						<img src={facebook} alt="Facebook" />
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/saidMounaim" rel="noreferrer" target="_blank">
+					<a href="https://github.com/samir162462?tab=repositories" rel="noreferrer" target="_blank">
 						<img src={github} alt="Github" />
 					</a>
 				</li>
