@@ -4,7 +4,6 @@ import DisplayLottie from './DisplayLottie';
 import Shapes from './Shapes';
 import Coding from '../lottie/coding.json';
 import SocialMedia from './SocialMedia';
-import arrow from '../icons/arrow.gif';
 
 const Hero = () => {
 	return (
