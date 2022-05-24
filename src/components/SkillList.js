@@ -24,6 +24,8 @@ const SkillList = () => {
                 <div className="container">
                     <div className="hero-text">
                         <div className="left-side">
+                        <br></br>
+
                             <h1 className='mt-2'><img height={60} width={60} src={gears} alt="Twitter" /> Skills List</h1>
                             <hr></hr>
                             <Row className='m-0' xs={2} sm={3} md={5} xl={5} xxl={5}>

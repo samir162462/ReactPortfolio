@@ -28,6 +28,7 @@ const App = () => {
 						<Experience></Experience>
 						<Body></Body>
 						<Life></Life>
+						
 					</Route>
 				</Fade>
 			</div>

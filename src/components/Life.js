@@ -11,9 +11,11 @@ const Life = () => {
                 <div className="container">
                     <div className="hero-text">
                         <div className="left-side">
+                            <br></br>
+
                             <h1 className='mt-2'><img height={60} width={60} src={mC} alt="Twitter" /> Status Life</h1>
                             <hr></hr>
-                            <p className='mt-2'><img height={30} width={30} src={gun} alt="Twitter" /> Military service - Finished (3/2021 - 3/2022) </p>
+                            <p className='mt-2'><img height={30} width={30} src={gun} alt="Twitter" /> Military service - Finished (2021-2022) </p>
 
                             <br></br>
                         </div>

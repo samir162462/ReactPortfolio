@@ -13,6 +13,8 @@ const Experience = () => {
         <div className="container">
           <div className="hero-text">
             <div className="left-side">
+            <br></br>
+
               <h1 className='mt-2'><img height={60} width={60} src={codeI} alt="Experience" /> Experience</h1>
               <hr></hr>
 

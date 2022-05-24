@@ -16,8 +16,8 @@ const Hero = () => {
 					<div className="left-side">
 						<h4>Hello there. I'm</h4>
 						<h1>Samir Mohamed Filfi</h1>
-						<p>I'm a Full Stack Web Developer.</p>
-						<p>&& DataScience Researcher.</p>
+						<p> Full Stack Web Developer</p>
+						<p> DataScience Researcher.</p>
 						<SocialMedia />
 					</div>
 					<div className="right-side">
@@ -27,10 +27,6 @@ const Hero = () => {
 				</div>
 
 
-				<center>
-
-					<img height={25} width={25} src={arrow} alt="arrow"></img>
-				</center>
 			</div>
 
 		</HeroStyled>
