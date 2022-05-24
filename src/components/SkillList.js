@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import Shapes from './Shapes'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -11,7 +10,6 @@ import jsweb from '../icons/js.webp';
 import postgresql from '../icons/postger.svg';
 import ml from '../icons/ML.png';
 import restApi from '../icons/restApi.png';
-import skills from '../icons/skills.png';
 import git from '../icons/git.svg';
 import python from '../icons/python.svg';
 import oop from '../icons/oop.png';
@@ -52,15 +50,6 @@ const SkillList = () => {
     )
 
 }
-const SkillStyle = styled.section`
-	position: relative;
-	display: flex;
-	align-items: center;
-	z-index: 1;
-    .borders{
-        border:#1171ef;
-    }
 
-`;
 
 export default SkillList
