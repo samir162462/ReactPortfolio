@@ -1,11 +1,9 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import codeI from '../icons/code.gif';
 import stack from '../icons/stack.png';
-import github from '../icons/github.svg';
 const Experience = () => {
   return (
     <div>
@@ -23,7 +21,6 @@ const Experience = () => {
                 <Col>
                   <h5>ValueInSoft</h5><Badge bg='light' style={{color:"black"}}>Mar 2021 - Present</Badge>
                   <p>Full Stack Web Application For Full Management Small Sized Shops.</p>
-                  <Button  style={{ "fontSize": "10px" }} variant='light'>Try Demo</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
@@ -40,7 +37,6 @@ const Experience = () => {
                 <Col>
                   <h5>Car Workshop Management System</h5><Badge bg='light' style={{color:"black"}}>Aug 2020 - Mar 2021</Badge>
                   <p>Desktop Application for mange Car workShops.</p>
-                  <Button style={{ "fontSize": "10px" }} size='sm' variant='dark'><img height={20} width={20} src={github} alt={"github"}></img> Repository</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
@@ -58,7 +54,6 @@ const Experience = () => {
                   <h5>Heart Sounds Classification Using Automatic Smart-tuned Deep Learning Model</h5>
                   <Badge bg='light' style={{color:"black"}}>Oct 2019 - Aug 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
-                  <Button style={{ "fontSize": "10px" }} size='sm' variant='dark'><img height={20} width={20} src={github} alt={"github"}></img> Repository</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
@@ -74,7 +69,6 @@ const Experience = () => {
                   <h5>Automobile Real Time System using Java with Esper</h5>
                   <Badge bg='light' style={{color:"black"}}>Feb 2020 - May 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
-                  <Button style={{ "fontSize": "10px" }} size='sm' variant='dark'><img height={20} width={20} src={github} alt={"github"}></img> Repository</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
@@ -94,7 +88,6 @@ const Experience = () => {
                   <h5>Compiler syntax analyser Context Free Grammar</h5>
                   <Badge bg='light' style={{color:"black"}}>Jan 2020 - May 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
-                  <Button style={{ "fontSize": "10px" }} size='sm' variant='dark'><img height={20} width={20} src={github} alt={"github"}></img> Repository</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
@@ -111,7 +104,6 @@ const Experience = () => {
                   <h5>Modeling and simulation Bank teller queue using java</h5>
                   <Badge  bg='light' style={{color:"black"}}>Oct 2019 - Dec 2019</Badge>
                   <p>Associated with The British University in Egypt</p>
-                  <Button style={{ "fontSize": "10px" }} size='sm' variant='dark'><img  height={20} width={20} src={github} alt={"github"}></img> Repository</Button>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
