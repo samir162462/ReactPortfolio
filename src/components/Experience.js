@@ -21,7 +21,7 @@ const Experience = () => {
               <Row className='m-0' xs={1} sm={2} >
 
                 <Col>
-                  <h5>ValueInSoft</h5><Badge bg='light' style={{color:"black"}}>Mar 2021 - Present</Badge>
+                  <h5>ValueInSoft</h5><Badge bg='light' style={{color:"black"}}>Mar 2021 - May 2022</Badge>
                   <p>Full Stack Web Application For Full Management Small Sized Shops.</p>
                 </Col>
                 <Col>
