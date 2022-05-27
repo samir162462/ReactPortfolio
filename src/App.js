@@ -8,6 +8,7 @@ import SkillList from './components/SkillList';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Life from './components/Life';
+import ScrollButton from './components/ScrollButton';
 
 const App = () => {
 	return (
@@ -31,6 +32,7 @@ const App = () => {
 						
 					</Route>
 				</Fade>
+				<ScrollButton></ScrollButton>
 			</div>
 		</Router>
 	);
