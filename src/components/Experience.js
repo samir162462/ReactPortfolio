@@ -13,15 +13,29 @@ const Experience = () => {
         <div className="container">
           <div className="hero-text">
             <div className="left-side">
-            <br></br>
+              <br></br>
 
               <h1 className='mt-2'><img height={60} width={60} src={codeI} alt="Experience" /> Experience</h1>
               <hr></hr>
-
               <Row className='m-0' xs={1} sm={2} >
 
                 <Col>
-                  <h5>ValueInSoft</h5><Badge bg='light' style={{color:"black"}}>Mar 2021 - May 2022</Badge>
+                  <h5>Elsewedy Electric</h5><Badge bg='light' style={{ color: "black" }}>Jul 2022 - Present</Badge>
+                  <p>Building, maintaining and testing critical software that speeds productivity and decreases the cost.</p>
+                </Col>
+                <Col>
+                  <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
+                  <p>java  .</p>
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Team Project</Badge>
+
+                </Col>
+
+              </Row>
+              <hr></hr> 
+              <Row className='m-0' xs={1} sm={2} >
+
+                <Col>
+                  <h5>ValueInSoft</h5><Badge bg='light' style={{ color: "black" }}>Mar 2021 - May 2022</Badge>
                   <p>Full Stack Web Application For Full Management Small Sized Shops.</p>
                 </Col>
                 <Col>
@@ -37,7 +51,7 @@ const Experience = () => {
               <hr></hr>
               <Row className='m-0' xs={1} sm={2} >
                 <Col>
-                  <h5>Car Workshop Management System</h5><Badge bg='light' style={{color:"black"}}>Aug 2020 - Mar 2021</Badge>
+                  <h5>Car Workshop Management System</h5><Badge bg='light' style={{ color: "black" }}>Aug 2020 - Mar 2021</Badge>
                   <p>Desktop Application for mange Car workShops.</p>
                 </Col>
                 <Col>
@@ -54,14 +68,14 @@ const Experience = () => {
               <Row className='m-0' xs={1} sm={2} >
                 <Col>
                   <h5>Heart Sounds Classification Using Automatic Smart-tuned Deep Learning Model</h5>
-                  <Badge bg='light' style={{color:"black"}}>Oct 2019 - Aug 2020</Badge>
+                  <Badge bg='light' style={{ color: "black" }}>Oct 2019 - Aug 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
                   <p>Python (librosa, numpy, sklearn, matplotlib, pydub, scipy, tensorflow, pandas And keras ) </p>
                   <p>I have implemented Smart Adjustive Traning set that gives the training set 100% of the dataset unique samples that make small dataset very power full.    </p>
-                  <Badge  style={{ "fontSize": "12px" }} bg='secondary'>Individual Project</Badge>
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Individual Project</Badge>
 
                 </Col>
               </Row>
@@ -69,7 +83,7 @@ const Experience = () => {
               <Row className='m-0' xs={1} sm={2} >
                 <Col>
                   <h5>Automobile Real Time System using Java with Esper</h5>
-                  <Badge bg='light' style={{color:"black"}}>Feb 2020 - May 2020</Badge>
+                  <Badge bg='light' style={{ color: "black" }}>Feb 2020 - May 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
                 </Col>
                 <Col>
@@ -88,7 +102,7 @@ const Experience = () => {
               <Row className='m-0' xs={1} sm={2} >
                 <Col>
                   <h5>Compiler syntax analyser Context Free Grammar</h5>
-                  <Badge bg='light' style={{color:"black"}}>Jan 2020 - May 2020</Badge>
+                  <Badge bg='light' style={{ color: "black" }}>Jan 2020 - May 2020</Badge>
                   <p>Associated with The British University in Egypt</p>
                 </Col>
                 <Col>
@@ -104,12 +118,12 @@ const Experience = () => {
               <Row className='m-0' xs={1} sm={2} >
                 <Col>
                   <h5>Modeling and simulation Bank teller queue using java</h5>
-                  <Badge  bg='light' style={{color:"black"}}>Oct 2019 - Dec 2019</Badge>
+                  <Badge bg='light' style={{ color: "black" }}>Oct 2019 - Dec 2019</Badge>
                   <p>Associated with The British University in Egypt</p>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
-                  <p>Java - 
+                  <p>Java -
                     Full GUI view simulation. </p>
                   <Badge style={{ "fontSize": "12px" }} bg='secondary'>Individual Project</Badge>
 
