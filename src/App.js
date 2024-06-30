@@ -9,6 +9,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Life from './components/Life';
 import ScrollButton from './components/ScrollButton';
+import Bio from './components/Bio';
 
 const App = () => {
 	return (
@@ -22,6 +23,7 @@ const App = () => {
 						</div>
 						
 						<Hero />
+						<Bio/>
 						<Education></Education>
 						<Body />
 						<SkillList />

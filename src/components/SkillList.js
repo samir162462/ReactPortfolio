@@ -13,7 +13,11 @@ import restApi from '../icons/restApi.png';
 import git from '../icons/git.svg';
 import python from '../icons/python.svg';
 import oop from '../icons/oop.png';
-
+import soap from '../icons/soap.webp';
+import sqldb from '../icons/sqldb.webp';
+import oracle from '../icons/oracleDB.webp';
+import springBoot from '../icons/springBoot.webp';
+import intj from '../icons/intj.webp';
 const SkillList = () => {
     return (
         <div>
@@ -39,7 +43,11 @@ const SkillList = () => {
                                 <Col className='mt-3'><img height={42} width={42} src={git} alt="Git" /> Git</Col>
                                 <Col className='mt-3'><img height={42} width={42} src={oop} alt="oop" /> OOP</Col>
                                 <Col className='mt-3'><img height={42} width={42} src={python} alt="oop" /> Python</Col>
-
+                                <Col className='mt-3'><img height={42} width={42} src={soap} alt="Git" /> Soap</Col>
+                                <Col className='mt-3'><img height={42} width={42} src={sqldb} alt="oop" /> SQL Server</Col>
+                                <Col className='mt-3'><img height={42} width={42} src={oracle} alt="oracle" /> Oracle DB</Col>
+                                <Col className='mt-3'><img height={42} width={42} src={springBoot} alt="springBoot" /> Spring Boot</Col>
+                                <Col className='mt-3'><img height={42} width={42} src={intj} alt="intj" />Intellij idea</Col>
 
                             </Row>
                             <br></br>

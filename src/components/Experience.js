@@ -4,6 +4,9 @@ import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
 import codeI from '../icons/code.gif';
 import stack from '../icons/stack.png';
+import Azentio1 from '../icons/azentioLogo.webp';
+import Elswedy from '../icons/elswedy.webp';
+
 const Experience = () => {
   return (
     <div>
@@ -19,14 +22,36 @@ const Experience = () => {
               <hr></hr>
               <Row className='m-0' xs={1} sm={2} >
 
+
+              <Col>
+                
+                  <h5>  <img height={60} width={60} src={Azentio1} alt="Azentio icon" /> <b>Azentio Software </b> (Islamic Banking)</h5><Badge bg='light' style={{ color: "black" }}>Jul 2023 - Present</Badge>
+                  <p>Software engineer and technical consultant specializing in IMAL Islamic banking systems. </p>
+
+              </Col>
+              <Col>
+                  <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
+                  <p> -Java Spring MVC </p>
+                  <p> -SQL Server and Oracle DB expert </p>
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Banking Projects</Badge>
+                  <p> International islamic banks over world</p>
+
+                </Col>
+              </Row>
+              <hr></hr> 
+
+              <Row className='m-0' xs={1} sm={2} >
+
                 <Col>
-                  <h5>Elsewedy Electric</h5><Badge bg='light' style={{ color: "black" }}>Jul 2022 - Present</Badge>
+                
+                  <h5> <img className='ml-3' height={40} width={70} src={Elswedy} alt="Elswedy icon" /> <b>  &nbsp;  Elsewedy Electric </b>  (Cables Section)</h5><Badge bg='light' style={{ color: "black" }}>Jul 2022 - Jul 2023</Badge>
                   <p>Building, maintaining and testing critical software that speeds productivity and decreases the cost.</p>
                 </Col>
                 <Col>
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
-                  <p>java  .</p>
-                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Team Project</Badge>
+                  <p> Java 6 * java 8 *java 17 * Spring boot 3 * Sql Server  * Git * MVC * Spring data * Spring security * JWT</p>
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Cables Project</Badge>
+                  <p> Software of cable creation </p>
 
                 </Col>
 
@@ -43,8 +68,8 @@ const Experience = () => {
                   <p> React Js for frontend (React DOM, Formik, Axios, React Router, React Bootstrap And Functional Components)</p>
                   <p>Spring Boot for backend framework. (JPA, security, JWT, JDBC, OOP)</p>
                   <p>Heroku for cloud app hosting beside Relational database PostgreSQL - Multi Schema (Each Company or Shop Has unique Schema) .</p>
-                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Individual Project</Badge>
-
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>POS Individual Cloud Project</Badge>
+                  
                 </Col>
 
               </Row>
@@ -75,7 +100,8 @@ const Experience = () => {
                   <h6><img height={30} width={30} src={stack} alt="Experience" />Stack</h6>
                   <p>Python (librosa, numpy, sklearn, matplotlib, pydub, scipy, tensorflow, pandas And keras ) </p>
                   <p>I have implemented Smart Adjustive Traning set that gives the training set 100% of the dataset unique samples that make small dataset very power full.    </p>
-                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Individual Project</Badge>
+                  <Badge style={{ "fontSize": "12px" }} bg='secondary'>Graduation Project</Badge>
+                  <p>A+ Project</p>
 
                 </Col>
               </Row>

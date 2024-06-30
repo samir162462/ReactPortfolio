@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import ToggleMode from './ToggleMode';
 
 const Header = () => {
 	return (
@@ -9,7 +8,6 @@ const Header = () => {
 			<div className="container">
 				<div className="header-content">
 					<Link to="/">Samir Mohamed Filfil</Link>
-					<ToggleMode />
 				</div>
 			</div>
 		</HeaderStyle>

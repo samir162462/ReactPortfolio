@@ -13,10 +13,9 @@ const Hero = () => {
 			<div className="container">
 				<div className="hero-text">
 					<div className="left-side">
-						<h4>Hello there. I'm</h4>
-						<h1>Samir Mohamed Filfil</h1>
-						<p> Full Stack Web Developer</p>
-						<p> DataScience Researcher.</p>
+
+						<p> Full Stack Web Developer
+						 & Data Science Researcher </p>
 						<SocialMedia />
 					</div>
 					<div className="right-side">

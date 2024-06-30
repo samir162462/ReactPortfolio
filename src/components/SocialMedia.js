@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import facebook from '../icons/facebook.svg';
 import linkedin from '../icons/linkedin.png';
 import github from '../icons/github.svg';
 
@@ -12,11 +11,6 @@ const SocialMedia = () => {
 				<li>
 					<a href="https://www.linkedin.com/in/samir-filfil-b833a3127/" rel="noreferrer" target="_blank">
 						<img height={42} width={42} src={linkedin} alt="Twitter" />
-					</a>
-				</li>
-				<li>
-					<a href="https://www.facebook.com/sameerboge/" rel="noreferrer" target="_blank">
-						<img src={facebook} alt="Facebook" />
 					</a>
 				</li>
 				<li>
